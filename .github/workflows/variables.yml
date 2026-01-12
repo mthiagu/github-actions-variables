@@ -9,8 +9,9 @@ jobs:
     steps:
     - name: Echo ACCESS_ID secret
       run: echo ${{ secrets.ACCESS_ID }}
-    -name : Echo ACCESS_VAR variable
+    - name : Echo ACCESS_VAR variable
       run: echo ${{ vars.ACCESS_VAR }}
+
 
 
 
