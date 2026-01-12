@@ -7,7 +7,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Echo ACCESS_ID
+    - name: Echo ACCESS_ID secret
       run: echo ${{ secrets.ACCESS_ID }}
+    -name : Echo ACCESS_VAR variable
+      run: echo ${{ vars.ACCESS_VAR }}
+
 
 
